@@ -48,5 +48,18 @@
             form.reset()
         })
         .catch(error => console.error('Error!', error.message))
-    })
+    });
+
+
+  //Typing Animation Script 
+ $('document').ready(function(){
+ var typed = new Typed('.typing', {
+    strings: ["YouTuber", "Developer", "Blogger", "Designer", "Freelancer", "Consultant", "Web Programmer", "Blockchain Web3.0 Dev"],
+    backSpeed: 80,
+    typeSpeed: 40,
+    //smartBackspace: true,
+    loop: true,
+
+  });
+});
   
