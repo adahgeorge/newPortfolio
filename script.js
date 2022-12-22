@@ -54,9 +54,9 @@
   //Typing Animation Script 
  $('document').ready(function(){
  var typed = new Typed('.typing', {
-    strings: ["George!", "An App Developer", "Blogger", "Designer", "Freelancer", "Consultant", "Web Programmer", "Blockchain Web3.0 Dev"],
-    backSpeed: 80,
-    typeSpeed: 40,
+    strings: ["George!", "An App Developer", "A Blogger", "A Graphic Designer", "A Freelancer", "A Consultant", "A Web Programmer", "Blockchain Web3.0 Developer"],
+    backSpeed: 60,
+    typeSpeed: 30,
     //smartBackspace: true,
     loop: true,
 
